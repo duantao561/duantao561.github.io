@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。 ###1、socket ###2、http    头  包体  表单（rfc1867）上传协议 ###3、java基础    java垃圾回收机制    java存储分配机制    Java各种集合  区别 使用  如何分配内存    Java类加载机制 ###4、Android    View绘制原理    自定义V">
+<meta name="description" content="明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。1、socket2、http头  包体  表单（rfc1867）上传协议 3、java基础java垃圾回收机制 java存储分配机制 Java各种集合  区别 使用  如何分配内存 Java类加载机制 4、AndroidView绘制原理 自定义View 动画 binder机制 AIDL handler原理 looper使">
 <meta name="keywords" content="工作随笔,Android">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android深入">
 <meta property="og:url" content="http://yoursite.com/2018/04/28/Android深入/index.html">
 <meta property="og:site_name" content="段涛的博客">
-<meta property="og:description" content="明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。 ###1、socket ###2、http    头  包体  表单（rfc1867）上传协议 ###3、java基础    java垃圾回收机制    java存储分配机制    Java各种集合  区别 使用  如何分配内存    Java类加载机制 ###4、Android    View绘制原理    自定义V">
+<meta property="og:description" content="明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。1、socket2、http头  包体  表单（rfc1867）上传协议 3、java基础java垃圾回收机制 java存储分配机制 Java各种集合  区别 使用  如何分配内存 Java类加载机制 4、AndroidView绘制原理 自定义View 动画 binder机制 AIDL handler原理 looper使">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-28T12:07:53.488Z">
+<meta property="og:updated_time" content="2018-04-28T12:12:26.536Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android深入">
-<meta name="twitter:description" content="明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。 ###1、socket ###2、http    头  包体  表单（rfc1867）上传协议 ###3、java基础    java垃圾回收机制    java存储分配机制    Java各种集合  区别 使用  如何分配内存    Java类加载机制 ###4、Android    View绘制原理    自定义V">
+<meta name="twitter:description" content="明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。1、socket2、http头  包体  表单（rfc1867）上传协议 3、java基础java垃圾回收机制 java存储分配机制 Java各种集合  区别 使用  如何分配内存 Java类加载机制 4、AndroidView绘制原理 自定义View 动画 binder机制 AIDL handler原理 looper使">
 
 
 
@@ -397,16 +397,27 @@
       
 
       
-        <p>明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。</p>
-<p>###1、socket</p>
-<p>###2、http<br>    头  包体  表单（rfc1867）上传协议</p>
-<p>###3、java基础<br>    java垃圾回收机制<br>    java存储分配机制<br>    Java各种集合  区别 使用  如何分配内存<br>    Java类加载机制</p>
-<p>###4、Android<br>    View绘制原理<br>    自定义View<br>    动画<br>    binder机制 AIDL<br>    handler原理 looper使用（深入源码）<br>        HandlerThread结合intentService去看</p>
-<p>###5、图片加载、优化  （glide fresco）<br>    图片缓存策略：三级缓存 内存 文件<br>    缓存回收策略：最久未使用、做不常使用。。。<br>    线程池<br>    glide对生命周期的控制fresco要好<br><a id="more"></a></p>
-<p>###6、网络库的封装<br>    线程池<br>    缓存策略<br>    参数，解析的封装<br>    常用网络库的源码（volley okhttp okgo）</p>
-<p>###7、组件化的构思</p>
-<p>###8、内存泄露的原因（长生命周期对象持有短生命周期对象的引用）以及优化</p>
-
+        <h2 id="明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。"><a href="#明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。" class="headerlink" title="明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。"></a>明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。</h2><h3 id="1、socket"><a href="#1、socket" class="headerlink" title="1、socket"></a>1、socket</h3><h3 id="2、http"><a href="#2、http" class="headerlink" title="2、http"></a>2、http</h3><pre><code>头  包体  表单（rfc1867）上传协议
+</code></pre><h3 id="3、java基础"><a href="#3、java基础" class="headerlink" title="3、java基础"></a>3、java基础</h3><pre><code>java垃圾回收机制
+java存储分配机制
+Java各种集合  区别 使用  如何分配内存
+Java类加载机制
+</code></pre><h3 id="4、Android"><a href="#4、Android" class="headerlink" title="4、Android"></a>4、Android</h3><pre><code>View绘制原理
+自定义View
+动画
+binder机制 AIDL
+handler原理 looper使用（深入源码）
+    HandlerThread结合intentService去看
+</code></pre><h3 id="5、图片加载、优化-（glide-fresco）"><a href="#5、图片加载、优化-（glide-fresco）" class="headerlink" title="5、图片加载、优化  （glide fresco）"></a>5、图片加载、优化  （glide fresco）</h3><pre><code>图片缓存策略：三级缓存 内存 文件 
+缓存回收策略：最久未使用、做不常使用。。。
+线程池
+glide对生命周期的控制fresco要好
+</code></pre><a id="more"></a>
+<h3 id="6、网络库的封装"><a href="#6、网络库的封装" class="headerlink" title="6、网络库的封装"></a>6、网络库的封装</h3><pre><code>线程池
+缓存策略
+参数，解析的封装
+常用网络库的源码（volley okhttp okgo）
+</code></pre><h3 id="7、组件化的构思"><a href="#7、组件化的构思" class="headerlink" title="7、组件化的构思"></a>7、组件化的构思</h3><h3 id="8、内存泄露的原因（长生命周期对象持有短生命周期对象的引用）以及优化"><a href="#8、内存泄露的原因（长生命周期对象持有短生命周期对象的引用）以及优化" class="headerlink" title="8、内存泄露的原因（长生命周期对象持有短生命周期对象的引用）以及优化"></a>8、内存泄露的原因（长生命周期对象持有短生命周期对象的引用）以及优化</h3>
       
     </div>
     
@@ -503,8 +514,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -592,6 +612,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。"><span class="nav-number">1.</span> <span class="nav-text">明天就放假了，同事宁神要走了。告诉我一些肺腑之言，发现自己有好多待掌握的东西。</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、socket"><span class="nav-number">1.1.</span> <span class="nav-text">1、socket</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、http"><span class="nav-number">1.2.</span> <span class="nav-text">2、http</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、java基础"><span class="nav-number">1.3.</span> <span class="nav-text">3、java基础</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、Android"><span class="nav-number">1.4.</span> <span class="nav-text">4、Android</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5、图片加载、优化-（glide-fresco）"><span class="nav-number">1.5.</span> <span class="nav-text">5、图片加载、优化  （glide fresco）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6、网络库的封装"><span class="nav-number">1.6.</span> <span class="nav-text">6、网络库的封装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7、组件化的构思"><span class="nav-number">1.7.</span> <span class="nav-text">7、组件化的构思</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8、内存泄露的原因（长生命周期对象持有短生命周期对象的引用）以及优化"><span class="nav-number">1.8.</span> <span class="nav-text">8、内存泄露的原因（长生命周期对象持有短生命周期对象的引用）以及优化</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
