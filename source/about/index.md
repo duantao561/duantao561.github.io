@@ -1,4 +1,7 @@
-title: 关于我
-date: 2016-11-29 23:52:03
 ---
-A Software Engineer @ Hongkou @ Visual Studio China
+title: 关于
+date: 2018-04-28 16:46:34
+type: "about"
+comments: false
+---
+我就是我，不一样的烟火！
