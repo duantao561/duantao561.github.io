@@ -1,4 +1,4 @@
-language: node_js
+﻿language: node_js
 node_js:
 - '4'
 branches:
@@ -22,7 +22,7 @@ install:
 - npm install hexo-deployer-git --save
 - npm install
 script:
-#- hexo clean
+- hexo clean
 - hexo g
 
 after_success:
