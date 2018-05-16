@@ -1,6 +1,5 @@
-﻿language: node_js
-node_js:
-- '4'
+language: node_js
+node_js: stable
 branches:
   only:
   - blog_source
@@ -21,6 +20,10 @@ install:
 - npm install hexo-cli -g
 - npm install hexo-deployer-git --save
 - npm install
+
+before_script:
+- npm install -g gulp
+
 script:
 - hexo clean
 - hexo g

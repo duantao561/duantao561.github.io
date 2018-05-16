@@ -85,6 +85,6 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/duantao561/duantao561.github.io.git
+  repo: git@github.com:duantao561/duantao561.github.io.git
   branch: master
   message: "update 2018_4_28"
