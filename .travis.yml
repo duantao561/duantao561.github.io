@@ -1,32 +1,28 @@
 language: node_js
-node_js: stable
-
-
-# S: Build Lifecycle
-install:
-  - npm install
-
-
-before_script:
-  - npm install -g gulp
-
-script:
-  - hexo g
-
-after_script:
-  - cd ./public
-  - git init
-  - git config user.name "duantao561"
-  - git config user.email "994363029@qq.com"
-  - git add .
-  - git commit -m "Update docs"
-  #- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-# E: Build LifeCycle
-
+node_js:
+- '4'
 branches:
   only:
-    - blog-source
+  - blog_source
+cache:
+  directories:
+  - node_modules
+before_install:
+- openssl aes-256-cbc -K $encrypted_0cfe0e2935fc_key -iv $encrypted_0cfe0e2935fc_iv
+  -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- eval $(ssh-agent)
+- ssh-add ~/.ssh/id_rsa
+- cp .travis/ssh_config ~/.ssh/config
+- git config --global user.name “duantao561”
+- git config --global user.email “994363029@qq.com"
+install:
+- npm install hexo-cli -g
+- npm install hexo-deployer-git --save
+- npm install
+script:
+- hexo clean
+- hexo g
 
-env:
- global:
-   - GH_REF: github.com/duantao561/duantao561.github.io.git
+after_success:
+- hexo deploy
