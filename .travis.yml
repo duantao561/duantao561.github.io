@@ -4,9 +4,9 @@ node_js:
 branches:
   only:
   - blog_source
-#cache:
-#  directories:
-#  - node_modules
+cache:
+  directories:
+  - node_modules
 before_install:
 - openssl aes-256-cbc -K $encrypted_0cfe0e2935fc_key -iv $encrypted_0cfe0e2935fc_iv
   -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
