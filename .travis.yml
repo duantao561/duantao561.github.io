@@ -15,7 +15,8 @@ before_install:
 - ssh-add ~/.ssh/id_rsa
 - cp .travis/ssh_config ~/.ssh/config
 - git config --global user.name “duantao561”
-- git config --global user.email “994363029@qq.com"
+- git config --global user.email "994363029@qq.com"
+
 install:
 - npm install hexo-cli -g
 - npm install hexo-deployer-git --save
