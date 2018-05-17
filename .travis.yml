@@ -30,3 +30,6 @@ script:
 
 after_success:
 - hexo deploy
+
+notifications:
+  webhooks: https://hooks.pubu.im/services/94qvqmlmqb6r0m7
