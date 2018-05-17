@@ -38,11 +38,11 @@ date: 2018-05-17 14:11:00
 * 有两种接入方式，NS和CNAME。由于CNAME需要备案，本文选择使用NS。
 * 如下图所示，已经添加了`xuezhisd.top`。
 
-![upload successful](images/pasted-1.png)
+![upload successful](/images/pasted-1.png)
 
 * 点击域名`xuezhisd.top`，添加子域名`blog.xuezhisd.top`。如下图所示。
 
-![upload successful](images/pasted-2.png)
+![upload successful](/images/pasted-2.png)
 
 
 #### 切换DNS
@@ -52,8 +52,8 @@ date: 2018-05-17 14:11:00
 
 * 在阿里云上，点击`DNS修改`，将默认的DNS修改为`ns1.jiasule.net`和`ns2.jiasule.net`。
 
-![upload successful](images/pasted-3.png)
+![upload successful](/images/pasted-3.png)
 
 * 如下图所示，点击`立即接入`，提示**域名切换成功**。【这需要等几分钟】
-![upload successful](images/pasted-4.png)
+![upload successful](/images/pasted-4.png)
 
