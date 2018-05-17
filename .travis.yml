@@ -33,3 +33,11 @@ after_success:
 
 notifications:
   webhooks: https://hooks.pubu.im/services/94qvqmlmqb6r0m7
+  email:
+    recipients:
+      - 382765687@qq.com
+    on_success: always # default: change
+    on_failure: always # default: always
+    #on_start: change   # default: never
+    #on_cancel: always # default: always
+    #on_error: always # default: always
