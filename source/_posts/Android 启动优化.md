@@ -1,16 +1,16 @@
 ---
-title: AndroidÉîÈë
+title: Androidå¯åŠ¨ä¼˜åŒ–
 date: 2018-08-18 15:03:03
 tags:
-  - ¹¤×÷Ëæ±Ê
+  - å·¥ä½œéšç¬”
   - Android
 categories: 
-  - ¹¤×÷Ëæ±Ê
+  - å·¥ä½œéšç¬”
 ---
 
-## Android Æô¶¯ÓÅ»¯
+## Android å¯åŠ¨ä¼˜åŒ–
 
-### 1.Ê×ÏÈ¶¨ÒåÒ»¸ödrawable ÓÃÓÚÉèÖÃÖ÷Ìâ±³¾°£¨android:windowBackground£©
+### 1.é¦–å…ˆå®šä¹‰ä¸€ä¸ªdrawable ç”¨äºŽè®¾ç½®ä¸»é¢˜èƒŒæ™¯ï¼ˆandroid:windowBackgroundï¼‰
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
@@ -23,7 +23,7 @@ categories:
     </item>
 </layer-list>
 ```
-### 2.ÉèÖÃÆô¶¯Ò³Ö÷Ìâ±³¾°£¨android:windowBackground£©
+### 2.è®¾ç½®å¯åŠ¨é¡µä¸»é¢˜èƒŒæ™¯ï¼ˆandroid:windowBackgroundï¼‰
 ```
     <style name="app_cool_launch" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/bg_cool_launch_img</item>
@@ -33,11 +33,11 @@ categories:
     </style>
 ```
 ------
-> * Ä¬ÈÏÇé¿öÏÂ£¬ËùÓÐ¿É»æÖÆÏî¶¼»áËõ·ÅÒÔÊÊÓ¦°üº¬ÊÓÍ¼µÄ´óÐ¡¡£Òò´Ë£¬½«Í¼Ïñ·ÅÔÚÍ¼²ãÁÐ±íÖÐµÄ²»Í¬Î»ÖÃ¿ÉÄÜ»áÔö´óÊÓÍ¼µÄ´óÐ¡£¬²¢ÇÒÓÐÐ©Í¼Ïñ»áÏàÓ¦µØËõ·Å¡£Îª±ÜÃâËõ·ÅÁÐ±íÖÐµÄÏîÄ¿£¬ÇëÔÚ < item> ÔªËØÄÚÊ¹ÓÃ < bitmap> ÔªËØÖ¸¶¨¿É»æÖÆ¶ÔÏó£¬²¢ÇÒ¶ÔÄ³Ð©²»Ëõ·ÅµÄÏîÄ¿£¨ÀýÈç ¡°center¡±£©¶¨ÒåÖØÁ¦¡£ÀýÈç£¬ÒÔÏÂ < item> ¶¨ÒåËõ·ÅÒÔÊÊÓ¦ÆäÈÝÆ÷ÊÓÍ¼µÄÏîÄ¿£º
+> * é»˜è®¤æƒ…å†µä¸‹ï¼Œæ‰€æœ‰å¯ç»˜åˆ¶é¡¹éƒ½ä¼šç¼©æ”¾ä»¥é€‚åº”åŒ…å«è§†å›¾çš„å¤§å°ã€‚å› æ­¤ï¼Œå°†å›¾åƒæ”¾åœ¨å›¾å±‚åˆ—è¡¨ä¸­çš„ä¸åŒä½ç½®å¯èƒ½ä¼šå¢žå¤§è§†å›¾çš„å¤§å°ï¼Œå¹¶ä¸”æœ‰äº›å›¾åƒä¼šç›¸åº”åœ°ç¼©æ”¾ã€‚ä¸ºé¿å…ç¼©æ”¾åˆ—è¡¨ä¸­çš„é¡¹ç›®ï¼Œè¯·åœ¨ < item> å…ƒç´ å†…ä½¿ç”¨ < bitmap> å…ƒç´ æŒ‡å®šå¯ç»˜åˆ¶å¯¹è±¡ï¼Œå¹¶ä¸”å¯¹æŸäº›ä¸ç¼©æ”¾çš„é¡¹ç›®ï¼ˆä¾‹å¦‚ â€œcenterâ€ï¼‰å®šä¹‰é‡åŠ›ã€‚ä¾‹å¦‚ï¼Œä»¥ä¸‹ < item> å®šä¹‰ç¼©æ”¾ä»¥é€‚åº”å…¶å®¹å™¨è§†å›¾çš„é¡¹ç›®ï¼š
 ```
     <item android:drawable="@drawable/image" />
 ```
-> *Îª±ÜÃâËõ·Å£¬ÒÔÏÂÊ¾ÀýÊ¹ÓÃÖØÁ¦¾ÓÖÐµÄ ÔªËØ£º
+> *ä¸ºé¿å…ç¼©æ”¾ï¼Œä»¥ä¸‹ç¤ºä¾‹ä½¿ç”¨é‡åŠ›å±…ä¸­çš„ å…ƒç´ ï¼š
 ```
     <item>
         <bitmap android:src="@drawable/image"
