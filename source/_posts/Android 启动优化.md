@@ -11,6 +11,7 @@ categories:
 ## Android 启动优化
 
 ### 1.首先定义一个drawable 用于设置主题背景（android:windowBackground）
+<!-- more -->
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
