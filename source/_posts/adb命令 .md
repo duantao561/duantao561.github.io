@@ -16,6 +16,7 @@ categories:
 2. 查看当前页面的activity
  - `windows下:` adb shell dumpsys activity | findstr mFocus  
  - `mic 或者 linux下:` adb shell dumpsys activity | grep mFocus  
+<!-- more -->
 3. 点击返回按钮
  - adb shell input keyevent 4
 4. home键的点击
