@@ -21,6 +21,9 @@ categories:
 ```
 - 编辑配置文件 log4j.properties
 
+<!-- more -->
+
+
 ```
 #日志级别,输出目的地  
 log4j.rootLogger=DEBUG,stdout,logFile

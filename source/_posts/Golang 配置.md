@@ -19,6 +19,9 @@ categories:
 	gotest
 	gotest
 	```
+
+<!-- more -->
+
 ### 2019-7-19
 1. 在 go.mod 文件下面添加如下可替换本地库
 

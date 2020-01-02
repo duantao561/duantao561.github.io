@@ -12,7 +12,9 @@ categories:
 
 ## 1.window环境 exe在后台运行
 [Windows下程序后台执行文件](https://blog.csdn.net/lendq/article/details/80283268) 
- 
+
+<!-- more -->
+
  - .bat文件
 
 ```
